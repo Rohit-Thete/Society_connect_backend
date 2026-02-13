@@ -16,7 +16,7 @@ public class UserApprovedController {
         this.userApprovalService = userApprovalService;
     }
 
-    // ✅ Approve user
+    //  Approve user
     @PutMapping("/{id}/approve")
     public ResponseEntity<?> approveUser(@PathVariable Integer id) {
         try {
